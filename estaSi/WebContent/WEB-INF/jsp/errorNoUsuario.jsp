@@ -1,6 +1,7 @@
 <html>
 <head></head>
 <body>
-<a>Hoooooooooooooooooooooooooolis :D</a>
+<p>El usuario buscado no existe</p>
+
 </body>
 </html>

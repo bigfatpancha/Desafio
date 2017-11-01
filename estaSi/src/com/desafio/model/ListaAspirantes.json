@@ -1,0 +1,78 @@
+{
+	"data": [
+		{
+			"usuario": "Lucia",
+			"nombre": "Lucia",
+			"apellido": "Julia Rodriguez",
+			"contrasenia": "11111111",
+			"dni": "35365217",
+			"fechaNac": "06-11-1990",
+			"domicilio": {
+				"calle": "Cortina 1729",
+				"ciudad": "CABA",
+				"provincia": "CABA"
+			},
+			"telefono": "45669664",
+			"mail": "lucia.julia.r@gmail.com",
+			"foto": "https://www.socialtools.me/blog/wp-content/uploads/2016/04/foto-de-perfil.jpg",
+			"experiencia": [
+				{
+					"empresa": "accenture",
+					"inicio": "2010",
+					"fin": "2012"
+				},
+				{
+					"empresa": "certant",
+					"inicio": "2015",
+					"fin": "actualmente"
+				}
+			]
+		},
+		{
+			"usuario": "Ayelen",
+			"nombre": "Maria Ayelen",
+			"apellido": "Bossero",
+			"contrasenia": "22222222",
+			"dni": "32362347",
+			"fechaNac": "15-05-1987",
+			"domicilio": {
+				"calle": "Pellegrini 858",
+				"ciudad": "Moron",
+				"provincia": "Buenos Aires"
+			},
+			"telefono": "45669664",
+			"mail": "ayebossero@gmail.com",
+			"foto": "http://cdn.glamour.mx/uploads/images/thumbs/mx/glam/2/s/2016/21/_tips_para_lograr_un_perfil_perfecto_en_linkedin_4822_980x560.jpg",
+			"experiencia": [
+				{
+					"empresa": "area 51",
+					"inicio": "2006",
+					"fin": "actualidad"
+				}
+			]
+		},
+		{
+			"usuario": "Nawe",
+			"nombre": "Nahuel",
+			"apellido": "Sosa",
+			"contrasenia": "33333333",
+			"dni": "34356717",
+			"fechaNac": "24-04-1990",
+			"domicilio": {
+				"calle": "Gaona 2932",
+				"ciudad": "Haedo",
+				"provincia": "Buenos Aires"
+			},
+			"telefono": "45669664",
+			"mail": "nahuel@gmail.com",
+			"foto": "http://como-encontrar-parejas.es/wp-content/uploads/foto-de-perfil.jpg",
+			"experiencia": [
+				{
+					"empresa": "techint",
+					"inicio": "2014",
+					"fin": "actualidad"
+				}
+			]
+		}
+	]
+}
