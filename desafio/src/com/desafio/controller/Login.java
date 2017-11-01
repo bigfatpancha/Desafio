@@ -35,10 +35,10 @@ public class Login {
 		
 		ObjectMapper mapper = new ObjectMapper();
 		try {
-			ListaUsuariosYContrasenias listaUsuario = (ListaUsuariosYContrasenias) mapper.readValue(new File("C:/Users/ljulia/Desktop/volverAEmpezar/Desafio/estaSi/src/com/desafio/model/usuariosYContras.json"), ListaUsuariosYContrasenias.class);
+			ListaUsuariosYContrasenias listaUsuario = (ListaUsuariosYContrasenias) mapper.readValue(new File("C:/Users/ljulia/Desktop/volverAEmpezar/Desafio/desafio/src/com/desafio/archivos/usuariosYContras.json"), ListaUsuariosYContrasenias.class);
 			for(Usuario userPass : listaUsuario.getData()) {
 				if(userPass.getUser().equals(usuario) && userPass.getPass().equals(contrasenia)) {
-					ListaAspirante listaAspirante = (ListaAspirante) mapper.readValue(new File("C:/Users/ljulia/Desktop/volverAEmpezar/Desafio/estaSi/src/com/desafio/model/ListaAspirantes.json"), ListaAspirante.class);
+					ListaAspirante listaAspirante = (ListaAspirante) mapper.readValue(new File("C:/Users/ljulia/Desktop/volverAEmpezar/Desafio/desafio/src/com/desafio/archivos/ListaAspirantes.json"), ListaAspirante.class);
 					model.addAttribute("aspirantes", listaAspirante.getData());
 					model.addAttribute("usuario", userPass);
 					return "home";

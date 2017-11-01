@@ -12,7 +12,7 @@
 	<tbody>
 		<c:forEach items="${aspirantes}" var="aspirante">
 			<tr>
-				<td><a href="/CrunchifySpringMVCTutorial/detalle/${aspirante.dni}">${aspirante.nombre} ${aspirante.apellido}</a></td>
+				<td><a href="/Desafio/detalle/${aspirante.dni}">${aspirante.nombre} ${aspirante.apellido}</a></td>
 				<td>${aspirante.dni}</td>
 			</tr>
 		

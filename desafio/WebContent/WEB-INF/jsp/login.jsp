@@ -5,7 +5,7 @@
 	<h1>Candidatos Flux IT</h1>
 	<h2>Login</h2>
 	
-	<form action="/CrunchifySpringMVCTutorial/doLogin" method="post" id="form">
+	<form action="/Desafio/doLogin" method="post" id="form">
 		<input type="text" placeholder="usuario" name="usuario">
 		<input type="password" placeholder="contraseña" name="contrasenia">
 	</form>

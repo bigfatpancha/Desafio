@@ -16,7 +16,7 @@
 	<li>Trabajo en ${experiencia.empresa} desde ${experiencia.inicio} hasta ${experiencia.fin}</li>
 </c:forEach>
 </ul>
-<form action="/CrunchifySpringMVCTutorial/doLogin" method="post" id="form">
+<form action="/Desafio/doLogin" method="post" id="form">
 	<input type="hidden" name="usuario" value="${usuario.user}">
 	<input type="hidden" name="contrasenia" value="${usuario.pass}">
 </form>
